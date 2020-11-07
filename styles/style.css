@@ -1,0 +1,39 @@
+body, html{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Upper Section */
+
+.upper-section{
+    line-height: 30px;
+    background-color: beige;
+    height: 100%;
+    padding: 20px;
+}
+.us-content{
+    padding: 20px;
+    margin-left: 200px;
+    margin-bottom: 70px;
+}
+.anchor{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    transition: .07s;
+}
+.anchor:hover{
+    display: block;
+    transition: .07s;
+    text-decoration: underline;
+    margin-left: 15px;
+}
+
+/* Lower Section */
+
+.lower-section{
+    bottom: 0;
+    padding: 200px;
+    background-color: burlywood;
+}
