@@ -1,12 +1,13 @@
 const mode = document.querySelector('.mode');
 
 mode.addEventListener(`click`, () => {
-    modeT();
+    modeToggle();
 });
 
-function modeT(){
+function modeToggle(){
     const body = document.querySelector('body');
     const us = document.querySelector('.upper-section');
     us.classList.toggle('dark');
     body.classList.toggle('dark');
+    mode.classList.toggle('darkmd-btn');
 }

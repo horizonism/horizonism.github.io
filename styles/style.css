@@ -52,10 +52,11 @@ body{
 /* Lower Section */
 
 .lower-section{
+    line-height: 30px;
     bottom: 0;
-    padding: 20px   ;
+    padding: 20px;
+    color: grey;
 }
-
 .ls-content{
     padding: 20px;
     margin-left: 200px;
@@ -63,20 +64,23 @@ body{
 .ls-header{
     width: 140px;
     padding: 0 20px 15px 0;
-    border-bottom: 5px solid grey;
+    border-bottom: 5px solid gray;
 }
-
 .mode{
-    background-color: transparent;
-    color: grey;
-    border: 1px solid grey;
+    position: absolute;
+    margin-top: -20px;
+    background-color: grey;
+    color: beige;
+    border: 0;
     border-radius: 3px;
     padding: 10px;
     transition: .4s;
+    font-weight: bold;
 }
 .mode:hover{
     transition: .4s;
     background-color: lightgrey;
+    color: grey;
 }
 .mode:focus{
     outline: none;
@@ -86,6 +90,12 @@ body{
 
 .dark{
     background-color: black;
+}
+.darkmd-btn{
+    background-color: red;
+    color: black;
+    outline: 0;
+    border: 0;
 }
 
 /* Make it responsive */
@@ -103,5 +113,11 @@ body{
     }
     .ls-header{
         margin-top: -20px;
+    }
+    .mode{
+        margin-left: 5%;
+    }
+    .darkmd-btn{
+        margin-left: 5%;
     }
 }
