@@ -67,13 +67,16 @@ body{
     border-bottom: 5px solid gray;
 }
 .mode{
-    position: absolute;
+    position: fixed;
+    transform: rotate(45deg);
+    top: 5px;
+    right: -60px;
     margin-top: -20px;
     background-color: grey;
     color: beige;
     border: 0;
     border-radius: 3px;
-    padding: 10px;
+    padding: 40px 50px 20px 50px;
     transition: .4s;
     font-weight: bold;
 }
