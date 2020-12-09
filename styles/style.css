@@ -4,6 +4,7 @@ body{
     padding: 0;
     color: grey;
     background-color: burlywood;
+    user-select: none;
 }
 .blinker{
     animation: blink 2s linear infinite;
